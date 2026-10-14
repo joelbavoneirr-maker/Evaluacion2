@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+header {
+    background-color: rgb(80, 138, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(214, 236, 12);
+}
+
+#lista-personajes {
+    background-color: rgb(180, 191, 201);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta-personaje {
+    background-color: white;
+    width: 260px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tarjeta-personaje img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tarjeta-personaje p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.tarjeta-personaje h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
